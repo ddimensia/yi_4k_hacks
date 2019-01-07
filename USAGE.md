@@ -1,13 +1,13 @@
-## Script usage
+# Script usage
 
-# Basics
+## Basics
 
 Place the contents of this repository on the root of your camera's SD card.  The `autoexec.ash` run scripts on startup
 that reside in the `scripts` directory.  Those scripts all look for a file on the root of the SD card that enable the
 specific feature.  Not all features are compatible with one another, for instance, RTMP auto streaming is not compatible with
 wifi client mode.
 
-# RTMP Auto-streaming
+## RTMP Auto-streaming
 
 To cause the Yi 4k to start streaming on startup rather than requiring you to mess with a QR code do the following:
 1. Create a file named `autortmp_enable.script` on the root of your SD card.
