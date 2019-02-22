@@ -2,7 +2,7 @@
 
 ## Basics
 
-Place the contents of this repository on the root of your camera's SD card.  The `autoexec.ash` run scripts on startup
+Place the contents of this repository on the root of your camera's SD card.  The `autoexec.ash` runs scripts on startup
 that reside in the `scripts` directory.  Those scripts all look for a file on the root of the SD card that enable the
 specific feature.  Not all features are compatible with one another, for instance, RTMP auto streaming is not compatible with
 wifi client mode.
